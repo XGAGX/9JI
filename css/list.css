@@ -1,0 +1,371 @@
+#header {
+  background: #fff;
+  border-bottom: 2px solid #C80F1E; }
+  #header .header-l h1 {
+    width: 130px;
+    height: 100px; }
+    #header .header-l h1 a img {
+      vertical-align: baseline; }
+  #header .header-l > div ul div dl ul {
+    height: 477px;
+    top: 1px;
+    border: 1px solid #C80F1E; }
+
+#main .cont > p {
+  height: 40px;
+  line-height: 40px; }
+
+#main .center .left > div {
+  border: solid 1px #e3e3e3;
+  background: #f3f3f3;
+  width: 218px;
+  margin-bottom: 10px; }
+  #main .center .left > div > span {
+    display: block;
+    height: 35px;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 0 10px;
+    line-height: 35px;
+    border-bottom: 1px solid #e3e3e3; }
+  #main .center .left > div > dl dt {
+    background: #f6f6f6;
+    border-bottom: 1px solid #e3e3e3;
+    padding-right: 10px;
+    padding-left: 20px;
+    height: 35px;
+    line-height: 35px; }
+    #main .center .left > div > dl dt i {
+      display: block;
+      width: 12px;
+      height: 12px;
+      border: 1px solid #ccc;
+      margin: 10px 0;
+      line-height: 11px;
+      text-align: center;
+      cursor: pointer; }
+  #main .center .left > div > dl dd {
+    padding: 0 30px;
+    background: #fff; }
+    #main .center .left > div > dl dd a {
+      display: block;
+      line-height: 30px; }
+  #main .center .left > div ul {
+    background: #fff; }
+    #main .center .left > div ul li {
+      position: relative;
+      height: 70px;
+      width: 198px;
+      background: #fff;
+      padding: 10px;
+      border-bottom: 1px dotted #ccc; }
+      #main .center .left > div ul li i {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 20px;
+        height: 20px;
+        background: #999;
+        border-radius: 0 0 20px 0;
+        color: #fff;
+        font-weight: bold;
+        text-indent: 3px; }
+      #main .center .left > div ul li img {
+        float: left; }
+      #main .center .left > div ul li div {
+        width: 200px;
+        margin: 0;
+        background: #fff;
+        border: 0; }
+        #main .center .left > div ul li div p a {
+          font-size: 12px;
+          line-height: 18px; }
+        #main .center .left > div ul li div span {
+          font-size: 16px;
+          font-weight: bold;
+          line-height: 24px;
+          width: 150px;
+          color: #C80F1E; }
+    #main .center .left > div ul li:nth-of-type(1) i,
+    #main .center .left > div ul li:nth-of-type(2) i,
+    #main .center .left > div ul li:nth-of-type(3) i {
+      background: #C80F1E; }
+  #main .center .left > div > li {
+    padding: 10px;
+    text-align: center;
+    background: #fff; }
+    #main .center .left > div > li span {
+      display: block;
+      color: #C80F1E;
+      line-height: 21px;
+      font-weight: bold;
+      font-size: 14px; }
+
+#main .center .right {
+  width: 958px; }
+  #main .center .right dl {
+    border: 1px solid #e3e3e3;
+    margin-bottom: 10px; }
+    #main .center .right dl dt {
+      background: #f6f6f6;
+      border-bottom: 1px solid #e3e3e3;
+      padding-right: 10px;
+      padding-left: 20px;
+      height: 35px;
+      font-weight: bold;
+      line-height: 35px; }
+    #main .center .right dl dd {
+      height: 100px;
+      padding: 10px;
+      float: left; }
+      #main .center .right dl dd img {
+        width: 100px;
+        height: 100px;
+        float: left; }
+      #main .center .right dl dd p {
+        width: 208px; }
+      #main .center .right dl dd span {
+        margin: 5px;
+        display: block;
+        line-height: 21px;
+        font-size: 14px;
+        font-weight: bold;
+        color: #C80F1E; }
+      #main .center .right dl dd a {
+        display: inline-block;
+        width: 90px;
+        height: 25px;
+        background: #f6f6f6;
+        border: 1px solid #ccc;
+        line-height: 25px;
+        text-align: center; }
+  #main .center .right .liebiaoss dt {
+    color: #C80F1E;
+    font-size: 16px; }
+    #main .center .right .liebiaoss dt span {
+      color: #999;
+      margin: 0 10px;
+      font-size: 12px; }
+      #main .center .right .liebiaoss dt span i {
+        margin: 0 5px;
+        color: #C80F1E; }
+  #main .center .right .liebiaoss dd {
+    height: auto;
+    margin: 0 15px;
+    width: 907px;
+    border-bottom: 1px dotted #dfdfdf; }
+    #main .center .right .liebiaoss dd span {
+      display: inline-block;
+      width: 100px;
+      text-align: right;
+      vertical-align: top;
+      margin: 0;
+      color: #999;
+      font-size: 12px;
+      float: left;
+      font-weight: normal; }
+    #main .center .right .liebiaoss dd div {
+      width: 763px;
+      margin-left: 110px; }
+      #main .center .right .liebiaoss dd div a {
+        display: inline-block;
+        float: left;
+        width: 116px;
+        height: 48px;
+        position: relative;
+        margin-left: -1px;
+        margin-top: -1px;
+        border: 1px solid #ccc; }
+        #main .center .right .liebiaoss dd div a img {
+          width: 116px;
+          height: 48px; }
+        #main .center .right .liebiaoss dd div a span {
+          display: none;
+          margin: 0;
+          position: absolute;
+          top: 0px;
+          left: 0px;
+          float: left;
+          background: #fff;
+          width: 114px;
+          height: 46px;
+          border: 1px solid #C80F1E;
+          color: #C80F1E;
+          line-height: 48px;
+          text-align: center; }
+      #main .center .right .liebiaoss dd div a:hover span {
+        display: block; }
+      #main .center .right .liebiaoss dd div .activate span {
+        display: block; }
+    #main .center .right .liebiaoss dd > p {
+      width: 763px;
+      margin-left: 110px; }
+      #main .center .right .liebiaoss dd > p a {
+        border: 0;
+        width: auto;
+        height: auto;
+        padding: 0 5px;
+        column-rule: #333;
+        line-height: 21px;
+        vertical-align: bottom;
+        background: #fff;
+        margin: 0 5px;
+        text-decoration: none; }
+      #main .center .right .liebiaoss dd > p a:hover {
+        background: #C80F1E;
+        color: #fff; }
+      #main .center .right .liebiaoss dd > p .activate {
+        background: #C80F1E;
+        color: #fff; }
+  #main .center .right .lbiao {
+    border: 0; }
+    #main .center .right .lbiao .tou {
+      background: #f6f6f6;
+      border: 1px solid #e3e3e3; }
+      #main .center .right .lbiao .tou > a {
+        display: block;
+        border-right: solid 1px #e3e3e3;
+        float: left;
+        padding: 0 20px;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        text-decoration: none; }
+        #main .center .right .lbiao .tou > a i {
+          width: 18px;
+          height: 18px;
+          vertical-align: middle;
+          margin-right: 5px;
+          display: inline-block;
+          background: #fff;
+          border: 1px solid #ccc; }
+      #main .center .right .lbiao .tou a:hover i {
+        border: 1px solid #C80F1E; }
+      #main .center .right .lbiao .tou > .activate {
+        background: #C80F1E;
+        color: #fff; }
+      #main .center .right .lbiao .tou div {
+        padding-left: 20px; }
+        #main .center .right .lbiao .tou div span {
+          line-height: 40px;
+          padding-right: 10px; }
+        #main .center .right .lbiao .tou div input {
+          width: 50px;
+          height: 22px;
+          text-align: center;
+          padding: 0; }
+        #main .center .right .lbiao .tou div .chang {
+          width: 124px;
+          margin-left: 30px;
+          text-align: left; }
+      #main .center .right .lbiao .tou .fr {
+        line-height: 40px;
+        margin: 0 20px; }
+        #main .center .right .lbiao .tou .fr em i {
+          color: #C80F1E;
+          font-weight: bold; }
+        #main .center .right .lbiao .tou .fr a {
+          float: none;
+          text-decoration: none;
+          text-align: center;
+          display: inline-block;
+          border: 1px solid #ccc;
+          border-radius: 50%;
+          background: #fff;
+          width: 20px;
+          height: 20px;
+          padding: 0;
+          line-height: 18px; }
+        #main .center .right .lbiao .tou .fr a:hover {
+          background: #9c3;
+          color: #fff; }
+    #main .center .right .lbiao .biao li {
+      padding: 10px;
+      width: 190px;
+      margin: 10px;
+      float: left;
+      border: solid 3px #fff; }
+      #main .center .right .lbiao .biao li img {
+        width: 200px;
+        height: 200px; }
+      #main .center .right .lbiao .biao li p img {
+        width: 32px;
+        height: 32px;
+        border: 1px solid #C80F1E;
+        margin-right: 10px; }
+      #main .center .right .lbiao .biao li h4 {
+        height: 40px; }
+        #main .center .right .lbiao .biao li h4 a i {
+          color: #C80F1E; }
+      #main .center .right .lbiao .biao li p i {
+        color: #C80F1E;
+        font-weight: bold;
+        line-height: 24px;
+        font-size: 16px; }
+      #main .center .right .lbiao .biao li p span a {
+        color: #3caaff;
+        font-weight: bold; }
+    #main .center .right .lbiao .biao li:hover {
+      border: solid 3px #efefef; }
+    #main .center .right .lbiao > div p {
+      padding: 10px 0; }
+      #main .center .right .lbiao > div p a {
+        display: inline-block;
+        padding: 0 5px;
+        height: 20px;
+        text-align: center;
+        line-height: 20px; }
+      #main .center .right .lbiao > div p .activate {
+        background: #C80F1E;
+        color: #fff; }
+
+#main .botton {
+  border: 1px solid #ccc; }
+  #main .botton .bt {
+    height: 40px;
+    text-align: center;
+    background: #f6f6f6;
+    border-bottom: 1px solid #dbdbdb; }
+    #main .botton .bt li {
+      padding: 0 20px;
+      height: 41px;
+      line-height: 40px; }
+    #main .botton .bt .activate {
+      background: #fff;
+      color: #C80F1E;
+      border-left: 1px solid #dbdbdb;
+      border-right: 1px solid #dbdbdb;
+      margin-left: -1px; }
+  #main .botton .con {
+    padding-top: 10px; }
+    #main .botton .con li {
+      float: left;
+      width: 390px;
+      margin-bottom: 10px; }
+      #main .botton .con li img {
+        width: 120px;
+        height: 120px;
+        float: left; }
+      #main .botton .con li div {
+        float: left; }
+        #main .botton .con li div p {
+          width: 260px;
+          color: #333; }
+        #main .botton .con li div span {
+          display: inline-block;
+          margin: 5px 0; }
+          #main .botton .con li div span em {
+            color: #C80F1E;
+            margin: 0 3px;
+            font-size: 16px;
+            line-height: 36px;
+            font-weight: bold; }
+        #main .botton .con li div a {
+          display: block;
+          width: 80px;
+          height: 26px;
+          background: #C80F1E;
+          text-align: center;
+          line-height: 26px;
+          color: #fff; }

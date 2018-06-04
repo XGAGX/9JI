@@ -1,0 +1,793 @@
+//////////////////
+// 变量 //
+//////////////////
+$red:#C80F1E;
+//////////////////
+// ico //
+//////////////////
+.ico-bg{background-image:url('img/icon.png');background-repeat:no-repeat;}
+.ico-gps{display:inline-block;width:12px;height:17px; background-position:-10px -55px;vertical-align: middle;}
+.ico-wg{display:inline-block;width:18px;height:18px; background-position:-54px -18px;vertical-align: middle;margin-right:3px;margin-top:-3px;}
+.ico-phone{display:inline-block;width:18px;height:18px; background-position:-36px -18px;vertical-align: middle;margin-right:3px;margin-top:-3px;}
+.ico-phone1{display:inline-block;width:16px;height:16px; background-position:-32px -36px;vertical-align: middle;margin-right:8px;}
+.ico-sb{display:inline-block;width:16px;height:16px; background-position:-154px -18px;vertical-align: middle;margin-right:8px;}
+.ico-dc{display:inline-block;width:16px;height:16px; background-position:-98px -36px;vertical-align: middle;margin-right:8px;}
+.ico-xj{display:inline-block;width:16px;height:16px; background-position:-65px -36px;vertical-align: middle;margin-right:8px;}
+.ico-dl{display:inline-block;width:16px;height:16px; background-position:-48px -36px;vertical-align: middle;margin-right:8px;}
+.ico-rj{display:inline-block;width:16px;height:16px; background-position:-114px -21px;vertical-align: middle;margin-right:8px;}
+.ico-buliang{display:inline-block;width:15px;height:15px; background-position:-27px -55px;vertical-align: middle;margin-right:3px;margin-top:-3px;}
+.ico-phone2{display:inline-block;width:18px;height:18px; background-position:-72px -18px;vertical-align: middle;margin-right:3px;margin-top:-3px;}
+.ico-H-red{display:inline-block;width:9px;height:11px; background-position:0px -55px;vertical-align:top;}
+.ico-H-green{display:inline-block;width:9px;height:11px; background-position:0px -66px;vertical-align:top;}
+.ico-b-wl{display:inline-block;width:50px;height:50px; background-position:0px -232px;vertical-align:top;}
+.ico-b-z{display:inline-block;width:50px;height:50px; background-position:-50px -232px;vertical-align:top;}
+.ico-b-che{display:inline-block;width:50px;height:50px; background-position:-100px -232px;vertical-align:top;}
+.ico-b-xiuli{display:inline-block;width:50px;height:50px; background-position:-150px -232px;vertical-align:top;}
+.ico-b-baohu{display:inline-block;width:50px;height:50px; background-position:0px -282px;vertical-align:top;}
+.ico-b-weixin{display:inline-block;width:70px;height:70px; background-position:-130px -282px;}
+.ico-b-weibo{display:inline-block;width:16px;height:16px; background-position:-130px -36px;vertical-align:middle;}
+.ico-b-baibutieba{display:inline-block;width:16px;height:16px; background-position:-146px -36px;vertical-align:middle;}
+.ico-jt_x{
+    margin:0 5px;
+    display:inline-block;
+    border: 6px solid #bbb;
+    border-left-color:transparent;
+    border-right-color:transparent;
+    border-bottom:0;
+    transition:transform 0.3s;
+}
+// ====================================
+.ico-j-jd{background-image:url('img/bot_link.fw.png');background-repeat:no-repeat;}
+.ico-j-buliang{display:inline-block;width:120px;height:50px; background-position:0px -150px;vertical-align:middle;}
+.ico-j-shiming{display:inline-block;width:132px;height:50px; background-position:0px -200px;vertical-align:middle;}
+.ico-j-shiming2{display:inline-block;width:130px;height:50px; background-position:0px 0px;vertical-align:middle;}
+.ico-j-gongshang{display:inline-block;width:130px;height:50px; background-position:0px -50px;vertical-align:middle;}
+.ico-j-yunnanwangjing{display:inline-block;width:130px;height:50px; background-position:0px -100px;vertical-align:middle;}
+.ico-j-nanduiyun{display:inline-block;width:130px;height:50px; background-position:0px -250px;vertical-align:middle;}
+// .ico-H-red{display:inline-block;width:9px;height:11px; background-position:0px -55px;vertical-align:top;}
+// ================
+button{
+    background: $red;
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+}
+// a{font-weight: bolder;}
+a:hover{color: #C80F1E;
+      text-decoration: underline; }
+// ================================
+// ================================
+
+
+#top{
+    $color:#6b6b6b;
+    $top-color:#E3E4E5;
+    font-size: 12px;
+    line-height: 30px;
+    background:$top-color;
+    color:$color;
+    height:30px;
+    .cont{position:relative;z-index: 3;}
+    .top-left{
+            color:$color;
+            // a:hover {
+            //             color:$red;
+            //             text-decoration:underline;
+            //         }
+            i{
+                color:$color - #222;
+                margin-right:6px;
+            }  
+            span{
+                margin-left:10px;
+                a{
+                margin-left:10px;
+                color:$color;
+                }
+
+            }
+    }
+    .top-right{
+        >ul{
+            // 公共
+            >li{
+                float:left;
+                position:relative;
+                
+                a{
+                    color:$color;
+                    margin:0 10px;
+                    // font-weight: bolder;
+                    // font-size: 16px;
+                }     
+                .menu-1{
+                    display:none;
+                    position:absolute;
+                    left:-1px;
+                    padding:0 5px;
+                    border:1px solid $top-color;
+                    border-top:0;
+                    // li{
+                    //     a{
+                            
+                    //     }
+                    // }
+                    li:hover{
+                        a{
+                            text-decoration:underline;
+                        }
+                    }
+                }
+            }
+            >li:hover{
+                >a{color:$red;}
+                .ico-jt_x{
+                    transform:rotate(180deg);
+                }
+            }
+            // 有子菜单的则背景变白色
+            >.menu:hover{
+                background:#fff;
+                .menu-1{
+                    display: block;
+                    background:#fff;
+                }
+            }
+            //个人中心
+            >li .grzx li a{
+                display: block;
+                width:80px;
+                line-height: 30px;
+            }
+            // 客户端
+            li .khd{
+                left:auto;
+                right:0;
+                width:215px;
+                text-align: center;
+                padding-top:5px;
+                a{
+                    display:block;
+                    img{
+                        display:block;
+                    }
+                    span{
+                        display:block;
+                        font-size:12px; 
+
+                        width: 100px
+                    }
+                }
+                >span{
+                    display:block;
+                    padding:7px 0;
+                    a{
+                        width: 80px;
+                        margin:10px 0;
+                        background:#F6F6F6;
+                        border:1px solid $top-color;
+                        border-radius:5px;
+                        line-height: 24px;
+                    }
+                }
+            }
+            // 网站导航
+            .daohan{
+                position: static;
+                .menu-1 dl{
+                    float: left;
+                    width:1200/5-43+px;
+                    padding:10px 20px;
+                    height:208px;
+                    dt{
+                        padding:25px 0;
+                        color:#FF6700;
+                        font-size: 16px;
+                        font-weight: normal;
+                    }
+                    dd{
+                        display:inline-block;
+                        line-height: 32px;
+                        font-size: 13px;
+                        a{
+                            display:block;
+                            margin: 0 0;
+                            width:96px;
+                        }
+                    }
+                    dd:hover a{
+                        color:$red;
+                        text-decoration:underline;
+                    }
+                }
+                .menu-1 dl:nth-of-type(2n){
+                    background:#F9F9F9;
+                }
+
+            }
+            // 拨打电话
+            //     ;
+            .phone{
+                a {
+                    color: $red;
+                    font-size: 14px;
+                }
+                .menu-1{
+                    left:auto;
+                    right:-1px;
+                    width:200px;
+                    padding:10px;
+                    p{
+                        line-height: 18px;
+                        font-size: 12px;
+                        // font-weight: bolder;
+                        margin-bottom:8px;
+                    }
+                    input{
+                        height:30px;
+                        box-sizing:border-box;
+                        width:145px;
+                        border:1px solid #999;
+                        border-right:0;
+                    }
+                    button{
+                        margin-left:-4px;
+                        vertical-align: top;
+                        width:50px;
+                        height:30px;
+                    }
+                }
+            }
+            
+            
+        }
+    }
+}
+#header{
+    background:#F7F7F7;
+    .header-l{
+        h1 a{
+        display:block;
+        width: 220px;
+        height:145px;
+        line-height: 145px;
+        text-align: center;
+        background:#fff;
+            img{
+                vertical-align: middle;
+                display:inline-block;
+                
+            }
+        }
+        // 一级菜单
+        >div{
+            >span{
+                background:$red;
+                color:#fff;
+                display: block;
+                padding-left:15px;
+                line-height: 45px;
+                height:45px;
+                width:205px;
+
+            }
+            // height:45px;
+            position: relative;
+            z-index: 1;
+            >ul{
+                display:none;
+                // 二级菜单
+                >div{background:$red;}
+                position: absolute;
+                dl{
+                    // 每个列表项不需要定位
+                    width: 200px;
+                    height:64px;
+                    padding: 8px 10px;
+                    color:#fff;
+                    dt{
+                        line-height: 20px;
+                        
+                        span{
+                            display:inline-block;
+                            width:170px;
+                        }
+                        em{
+                            font-family: SimSun;
+                        }
+                    }
+                    dd{
+                        display:inline-block;
+                        line-height: 22px;
+                        padding-left:24px;
+                        color:rgba(255,255,255,0.6);
+                    }
+                    // 三级菜单
+                    // 定位到二级菜单上,而不是列表项
+                    ul{
+                        display:none;
+                        width:760px;
+                        position: absolute;
+                        left:220px;
+                        top:0;
+                        background:#fff;
+                        .left{
+                            padding:10px;
+                            p{
+                                width:500px;
+                                padding:15px 0;
+                                padding-left:10px;
+                                border-bottom:1px solid #ccc;
+                                // margin-bottom:10px;
+                                i{
+                                    display:inline-block;
+                                    font-weight: bold;
+                                    width: 70px;
+                                    height: 30px;
+                                    color:$red;
+                                    float: left;
+                                    
+
+                                }
+                                a{
+                                    display:inline-block;
+                                    padding:5px 0;
+                                    em{
+                                        border-right:1px solid #ccc;
+
+                                        padding-left:17px;
+
+                                    }
+                                }
+                            }
+                            
+
+                        }
+                        .right{
+                            padding:10px;
+                            a{
+                                display:block;
+                            }
+                            a:nth-of-type(2){
+                                border-top:1px dotted #ccc;
+                            }
+                        } 
+                    }
+                }
+                // hover三级菜单
+                dl:hover{
+                    background:#333;
+                    >ul{
+                        display:block;
+                    }
+                }
+                
+                
+            }
+            
+        }
+        >div:hover >ul{
+            display:block;
+        }
+    }
+    .header-c{
+        form{
+            margin-left:115px;
+            margin-top:25px;
+            >span{
+                display:block;
+                border:2px solid $red;
+                input{
+                    border:0;
+                    padding:0;
+                    width: 450px;
+                    height: 34px;
+                    float: left;
+                    
+
+                }
+                input:focus{outline:0;}
+                button{
+                    float: left;
+                    width:78px;
+                    height:34px;
+                    margin-bottom:-5px;
+                    font-size: 16px;
+                }
+            }
+            p{
+                line-height: 25px;
+                a{
+                    font-size: 12px;
+                    // font-weight: bolder;
+                    margin-right:15px;
+                }
+                margin-bottom: 11px;
+            }
+        }
+        ul{
+            li{
+                float:left;
+                position:relative;
+                z-index: 1;
+                line-height: 45px;
+                // text-align: center;
+                a{
+                    display:block;
+                    font-size: 16px;
+                    padding:0 16px;
+                    text-decoration: none;
+                    color:#333;
+
+                }
+                a:hover{
+                    color:$red;
+                }
+                //子菜单
+                ul{
+                    display:none;
+                    position: absolute;
+                    top:40px;
+                    left:0;
+                    box-shadow:0 0 3px #666;
+                    li{
+                        width:80px;
+                        padding:0 15px;
+                        background:#fff;
+                    }
+                }
+                
+            }
+            li:hover{
+                ul{
+                    display:block;
+                    li:hover{
+                        background:$red;
+                        color:#fff;
+                    }
+                }
+            }
+        }
+    }
+    .header-r{
+        a{
+            display:block;
+            img{display:block;}
+        }
+    }
+}
+#foooter{
+    li{
+        padding:25px 0px;
+        border-bottom:1px solid #eee;
+    }
+    // 品质
+    .pz{
+        
+        a{
+            display:inline-block;
+            width:204px;
+            height:48px;
+            color:#000;
+            text-decoration: none;
+            padding-left: 26px;
+            i{float: left;
+                margin-right:5px;
+            }
+            span{
+                font-size: 20px;
+                line-height: 30px;
+            }
+            em{
+                display:inline-block;
+                font-size: 12px;
+                line-height: 18px;
+                text-decoration:none;
+                color:#999;
+            }
+        }
+        a:hover{
+            span{
+                color:$red;
+            }
+        }
+    }
+    // 指南
+    .zhinan{
+        dl{
+            float: left;
+            padding-left:7px;
+            dt{
+                font-size: 14px;
+                line-height: 40px;
+                width:180px;
+            }
+            dd{
+                font-size: 12px;
+                line-height: 25px;
+            }
+            p{
+                color: #6B6B6B;
+                padding-top:5px;
+            } 
+        }
+        //微信
+        .weixn{
+            width:250px;
+            padding-top:10px;
+            .ico-b-weixin{
+            float: left;
+            }
+            h4{
+                font-size: 12px;
+                line-height:24px ;
+            }
+            p{
+                font-size: 12px;
+                line-height: 20px;
+                padding-bottom:5px;
+            }
+            i{
+                margin-right:3px;
+            }
+            // 小标志
+             p {
+                a{
+                margin-right:10px;
+                }
+            }
+        }
+    }
+}
+#bottom{
+    background:#F6F6F6;
+    text-align: center;
+    color:#999;
+    p{
+        line-height: 25px;
+        
+    }
+    p:first-of-type{
+        line-height: 50px;
+        i{
+            border-right:1px solid #ccc;
+            margin:0 15px;
+        }
+    }
+    p:last-of-type{
+        padding:10px 5px;
+        i{
+            margin:0 10px;
+        }
+    }
+}
+
+
+// 工具栏
+// tool
+// ico-bg
+.ico-t-gwc{display:inline-block;width:25px;height:25px; background-position:-25px -332px;vertical-align:middle;}
+.ico-t-fjmd{display:inline-block;width:25px;height:25px; background-position:-75px -332px;vertical-align:middle;}
+.ico-t-zxkh{display:inline-block;width:25px;height:25px; background-position:-100px -332px;vertical-align:middle;}
+.ico-t-jyts{display:inline-block;width:25px;height:25px; background-position:-0px -357px;vertical-align:middle;}
+.ico-t-weixing{display:inline-block;width:25px;height:25px; background-position:-25px -357px;vertical-align:middle;}
+.ico-t-cpdb{display:inline-block;width:25px;height:25px; background-position:-100px -357px;vertical-align:middle;}
+.ico-t-hdxb{display:inline-block;width:25px;height:25px; background-position:-0px -332px;vertical-align:middle;}
+.ico-t-ce{display:inline-block;width:25px;height:25px; background-position:-75px -357px;vertical-align:middle;}
+
+.ico-t-red_dun{background: url(img/cc.png) no-repeat center;
+        background-size: 16px;
+        width: 16px;
+        height: 17px;
+        float: left;}
+#tool{
+    background: #505050;
+    position: fixed;
+    right:0px;
+    top:0;
+    width:35px;//js打开购物车
+
+    height:800px;
+    z-index:3;
+
+    .fl{
+        position: absolute;
+
+            div{
+            position: absolute;
+            transform:translate(0,-50%);
+            }
+            a{
+                display:block;
+                padding:5px;
+                width:25px;
+                height:25px;
+                position: relative;
+                //购物车数量
+                .u{
+                    position: absolute;
+                    display:block;
+                    top:0;
+                    right:0;
+                    width:15px;
+                    height:15px;
+                    text-align: center;
+                    text-decoration:none;
+                    line-height: 15px;
+                    border-radius:50px;
+                    background:$red;
+                    color:#fff;
+
+                }
+                em{
+                    // display: none;
+                    // 不能用display: none;在没显示时不初始化
+                    opacity: 0;
+                    width:0;
+                    height:35px;
+                    position: absolute;
+                    right:60px;
+                    top:0;
+                    background: #ff4e00;
+                    color:#fff;
+                    font-size: 12px;
+                    line-height: 35px;
+                    text-align: center;
+                    transition:right 0.3s;
+                    i{
+
+                        position: absolute;
+                        top:7px;
+                        right:-7px;
+                    }
+                }
+            }
+            a:hover{
+                background:$red;
+                .u{
+                    background:#fff;
+                    color:$red;
+                }
+                em{
+                    // display:block;
+                    width:70px;
+                    opacity: 1;
+                    right:35px;
+                    i{
+                        // 透明后还是有宽度所以hover时在加上边框属性
+                        border-left:7px solid  #ff4e00;
+                        border-top:7px solid transparent;
+                        border-bottom:7px solid transparent;
+                        display: inline-block;
+                    }
+                }
+
+            }
+            // 单独为微信图标配置
+            a{
+                .wx{
+                    transition:0s;
+                    img{
+                        width:0px;
+                        height:0px; 
+                    }
+                    background:#fff;
+                }
+            }
+            a:hover{
+                .wx{
+                    right:65px;
+                    img{
+                        width:100px;
+                        height:100px;
+                    }
+                    i{  
+                        right:-37px;
+                        border-left:7px solid  #FFF;
+                        border-top:7px solid transparent;
+                        border-bottom:7px solid transparent;
+                        display: inline-block;
+                    }
+                }
+            }
+        // 回到顶部
+        .hdxb{
+                position: fixed;
+                bottom:0;
+            }
+    }
+    .fr{
+        // width:0;
+        background: #f5f5f5;
+        display:none;
+        >p{
+            width:280px;
+            line-height:40px;
+            font-size: 16px;
+            padding:0 10px;
+            .ico-t-ce{
+                margin-right:10px;
+            }
+        }
+        ul{
+            border-top:1px solid #ccc;
+            border-bottom:1px solid #ccc;
+            width:300px;
+            box-sizing:border-box;
+            height:200px;
+            overflow-x:hidden;
+            padding:0 10px;
+            background:#fff;
+            li{
+                border-bottom:1px solid #ccc;
+                padding:10px 0;
+                img{
+                    width:62px;
+                    height:62px;
+                    float: left;
+                }
+                em{padding:0 5px;}
+                p{
+                    i{
+                        color:$red;
+                        font-weight: bold;
+                    }
+                    span{
+                        background:#999;
+                        border:1px solid #ccc;
+                        display:inline-block;
+                        height:20px;
+                        vertical-align: middle;
+                        line-height: 20px;
+                        a{
+                            vertical-align: top;
+                            display:inline-block;
+                            width:20px;
+                            background:#eee;
+                            height:20px;
+                            text-decoration: none;
+                            text-align: center;
+                        }
+                        em{
+                            display:inline-block;
+                            width:20px;
+                            text-align: center;
+                            
+                            height:20px;
+                        }
+                        input{
+                            text-align: center;
+                            margin-left:-1px;
+                            height:18px;
+                            width:16px;
+                            border:0;
+                            border-left:1px solid #ccc;
+                            border-right:1px solid #ccc;
+                        }
+                    }
+                    .sc{
+                        display:none;
+                        margin-left:20px;
+                        color:$red;
+                    }
+                }
+            }
+            li:hover p .sc{
+                display:inline;
+            }
+        }
+        div{
+            height:85px;
+            text-align: center;
+            span{
+                display:block;
+                line-height: 40px;
+            }
+            button{
+                width:280px;
+                height:35px;
+            }
+        }
+    }
+    
+}

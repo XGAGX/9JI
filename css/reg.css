@@ -1,0 +1,161 @@
+@charset "UTF-8";
+.ico-y {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #999;
+  display: inline-block;
+  text-align: center;
+  color: #fff;
+  margin: 0 5px;
+  font-family: "宋体";
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px; }
+
+.ico-ur {
+  background: url(img/iconfont-yonghu.png) no-repeat 5px center;
+  background-size: 20px; }
+
+.ico-prw {
+  background: url(img/iconfont-psw.png) no-repeat 5px center;
+  background-size: 20px; }
+
+.ico-shouji {
+  background: url(img/iconfont-shouji.png) no-repeat 5px center;
+  background-size: 20px; }
+
+.ico-duanxin {
+  background: url(img/iconfont-duanxin.png) no-repeat 5px center;
+  background-size: 20px; }
+
+.ico-code {
+  background: url(img/login-code.png) right top no-repeat;
+  width: 60px;
+  height: 60px;
+  display: inline-block;
+  vertical-align: middle;
+  position: absolute;
+  right: 0;
+  bottom: 0px; }
+
+.ico-weixing {
+  background: url(img/log_icon.png) no-repeat;
+  background-position: 0 0;
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  vertical-align: middle; }
+
+.ico-qq {
+  background: url(img/log_icon.png) no-repeat;
+  background-position: -16px 0;
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  vertical-align: middle; }
+
+#header .cont {
+  width: 960px; }
+  #header .cont h1 a {
+    text-decoration: none;
+    height: 80px;
+    line-height: 80px;
+    vertical-align: middle; }
+    #header .cont h1 a img {
+      vertical-align: middle; }
+    #header .cont h1 a span {
+      border-left: 2px solid #ccc;
+      padding-left: 40px;
+      margin-left: 40px;
+      font-size: 24px;
+      line-height: 36px;
+      vertical-align: middle;
+      color: #c80f1e; }
+
+#main {
+  background: #F6F6F6; }
+  #main .cont {
+    width: 940px;
+    position: relative;
+    background: #fff;
+    border: 10px solid #eee; }
+    #main .cont > span {
+      line-height: 38px;
+      margin-right: 10px; }
+      #main .cont > span a {
+        background: #9c3;
+        color: #fff;
+        padding: 2px; }
+    #main .cont ul {
+      color: #999; }
+      #main .cont ul li {
+        float: left; }
+    #main .cont .bt li {
+      width: 64px;
+      height: 40px;
+      padding: 0 20px;
+      line-height: 40px;
+      font-size: 16px;
+      color: #999;
+      background: #eee;
+      border-right: 1px solid #ddd; }
+    #main .cont .bt .activate {
+      color: #000;
+      border-top: 2px solid #c80f1e;
+      background: #fff;
+      height: 38px; }
+    #main .cont .cn .bitian::before {
+      content: '*';
+      color: red; }
+    #main .cont .cn li form {
+      height: 300px; }
+    #main .cont .cn li div p {
+      margin-top: 15px; }
+      #main .cont .cn li div p span {
+        display: inline-block;
+        width: 100px;
+        line-height: 30px;
+        font-size: 12px;
+        text-align: right; }
+      #main .cont .cn li div p input {
+        height: 22px;
+        width: 120px;
+        border: 1px solid #ccc;
+        margin: 0 10px;
+        border-radius: 2px;
+        box-shadow: inset 0 2px #f3f3f3; }
+      #main .cont .cn li div p .yzm_tp {
+        width: 80px;
+        height: 30px;
+        vertical-align: bottom;
+        background: #fff;
+        border: 1px solid #eee; }
+      #main .cont .cn li div p .chang {
+        width: 240px; }
+      #main .cont .cn li div p a {
+        margin-left: 10px; }
+      #main .cont .cn li div p .getCode {
+        width: 100px;
+        height: 30px;
+        display: inline-block;
+        vertical-align: bottom;
+        line-height: 30px;
+        background: #f4f4f4;
+        border: 1px solid #ccc;
+        text-align: center; }
+    #main .cont .cn li p {
+      margin: 15px 0; }
+      #main .cont .cn li p label {
+        margin-left: 100px; }
+      #main .cont .cn li p button {
+        margin-left: 100px;
+        width: 160px;
+        height: 40px;
+        border-radius: 2px;
+        font-size: 14px;
+        font-weight: bold; }
+      #main .cont .cn li p .blue {
+        color: #39f; }
+    #main .cont .cn .pt form {
+      height: 463px; }
